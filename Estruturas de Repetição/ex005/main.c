@@ -2,6 +2,7 @@
 #include <string.h>
 
 int main (){
+    
     char senha[6] = "senha";
     char tentativa[20];
     int i = 0;
@@ -11,7 +12,7 @@ int main (){
         scanf("%s", tentativa);
 
         if (i == 2){
-            printf("Numero de tentivas excedido. Acesso Bloqueado.\n");
+            printf("Número de tentivas excedido. Acesso Bloqueado.\n");
             break;
         }
     

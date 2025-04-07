@@ -6,6 +6,6 @@ int main(){
     int vetor[tam];
 
     for (int i = 0; i < tam; i++) {
-        printf("%d\n", vetor[i]);
+        printf("%d\n", i);
     }
 }
